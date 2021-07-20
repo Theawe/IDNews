@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title_detail"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Virus COVID-19 sudah merembak ke pedesaan sejak dua minggu terakhir"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/image_detail"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+
+            android:layout_marginTop="80dp"/>
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/darker_gray" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_publish"/>
+
+        <TextView
+            android:id="@+id/nama_publisher_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="45dp"
+            android:text="detik.com"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="200dp"
+            android:src="@drawable/ic_person"/>
+
+        <TextView
+            android:id="@+id/author_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="225dp"
+            android:text="Author"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_time"/>
+
+        <TextView
+            android:id="@+id/waktu_publish_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="45dp"
+            android:text="waktu publish"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="341dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_attach"/>
+
+        <TextView
+            android:id="@+id/url_berita_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="341dp"
+            android:layout_marginLeft="45dp"
+            android:text="url berita"
+            />
+
+        <View
+            android:layout_width="350dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deskripsi_detail"
+            android:layout_marginTop="420dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="deskripsi artikel"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_redirect_browser"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Open in browser"
+        android:backgroundTint="#385872"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="openInBrowser"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

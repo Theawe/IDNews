@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/mainLayout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:padding="10dp"
+        android:background="@drawable/list_shape"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/relative_layout"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:textColor="#000"
+            android:layout_marginTop="200dp"
+            android:textSize="20dp"
+            android:text="Virus C-19 meningkat dari bulan sebelumnya"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            />
+
+        <ImageView
+            android:id="@+id/image_news"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_app"/>
+
+        <TextView
+            android:id="@+id/nama_publisher"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Yordy Wirasatwika"
+            android:textAlignment="center"
+            android:layout_marginTop="310dp"/>
+
+        <TextView
+            android:id="@+id/waktu_publish"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="20 April 2021"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="155dp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

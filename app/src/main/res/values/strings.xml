@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IDNews</string>
+
+    <string-array name="searchBy">
+        <item>kata kunci</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Indonesia</item>
+        <item>Japan</item>
+        <item>Korea</item>
+        <item>USA</item>
+        <item>Singapore</item>
+    </string-array>
+</resources>
